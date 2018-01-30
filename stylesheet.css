@@ -4,16 +4,15 @@ body{
 header {
     background-color: black;
 }
-.tres_imagenes{
+
+main {
     width: 100%;
+}
+.tres_imagenes{
     display: block;
     margin-left: 20%;
     margin-right: 20%;
 }
-main {
-    width: 100%;
-}
-
 .small_img{
     width: 100px;
     float: left;
