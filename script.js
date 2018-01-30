@@ -1,12 +1,12 @@
 "use strict"
 const template = document.querySelector('template').content;
-const main = document.querySelector('main');
+const gallery = document.querySelector('.gallery');
 for(
-    let i=0; 
-    i<10; 
+    let i=1; 
+    i<=6; 
     i++)
 {
     const clone = template.cloneNode(true);
-    clone.querySelector('h2').textContent += i;
-    main.appendChild(clone);
+    clone.querySelector(img).src = "assets/img/product_img_" +i ".jpg";
+    gallery.appendChild(clone);
 }
