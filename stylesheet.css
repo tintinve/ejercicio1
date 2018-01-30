@@ -1,0 +1,14 @@
+header {
+    background-color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    /*It will fill out the screen*/
+    grid-gap: .5em;
+}
+
+article {
+    background: #cde;
+}
