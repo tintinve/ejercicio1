@@ -7,6 +7,6 @@ for(
     i++)
 {
     const clone = template.cloneNode(true);
-    clone.querySelector(img).src = "assets/img/product_img_" +i ".jpg";
+    clone.querySelector('img').src = "assets/img/related_"+i+".jpg";
     gallery.appendChild(clone);
-}
+} 

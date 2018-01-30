@@ -1,13 +1,21 @@
+body{
+    width: 600px;
+}
 header {
     background-color: black;
 }
-
-main {}
-span{
+.tres_imagenes{
+    width: 100%;
     display: block;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+main {
+    width: 100%;
+}
+
 .small_img{
-    width: 50px;
+    width: 100px;
     float: left;
     display: inline;
 }
